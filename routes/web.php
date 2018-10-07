@@ -11,6 +11,12 @@
 |
 */
 
+# New route
+Route::get('/example', function () {
+    return 'hello there!';
+});
+
+# Existing route
 Route::get('/', function () {
     return view('welcome');
 });
