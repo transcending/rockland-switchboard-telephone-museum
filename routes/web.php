@@ -25,11 +25,12 @@ Route::get('/', function () {
     return 'Results for the book: '.$title;
 });
 */
-
+//GET Routes
 Route::get('/events', 'EventController@index');
 Route::get('/exchangeprojects', 'ExchangeProjectController@index');
 Route::get('/museumstories', 'MuseumStoryController@index');
 Route::get('/networksounds', 'NetworkSoundController@index');
-Route::get('/operatorstories', 'OperatorStory@index');
+Route::get('/operators', 'OperatorController@index');
+Route::get('/operatorstories', 'OperatorStoryController@index');
 Route::get('/photoarchives', 'PhotoArchiveController@index');
 Route::get('/videoarchives', 'VideoArchiveController@index');
