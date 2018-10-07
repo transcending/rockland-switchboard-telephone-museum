@@ -20,3 +20,17 @@ Route::get('/example', function () {
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*Route::get('/books/{title}', function($title) {
+    return 'Results for the book: '.$title;
+});
+*/
+
+Route::get('/home', 'HomeController@index');
+Route::get('/events', 'EventController@index');
+Route::get('/exchangeprojects', 'ExchangeProjectController@index');
+Route::get('/museumstories', 'MuseumStoryController@index');
+Route::get('/networksounds', 'NetworkSoundController@index');
+Route::get('/operatorstories', 'OperatorStory@index');
+Route::get('/photoarchives', 'PhotoArchiveController@index');
+Route::get('/videoarchives', 'VideoArchiveController@index');

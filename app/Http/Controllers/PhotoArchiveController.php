@@ -1,0 +1,22 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Emerson
+ * Date: 10/7/2018
+ * Time: 11:19 AM
+ */
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class PhotoArchiveController extends Controller {
+
+    /**
+     * GET /books
+     */
+    public function index()
+    {
+        return 'Here are all the photo archives...';
+    }
+}
