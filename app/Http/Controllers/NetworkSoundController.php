@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 class NetworkSoundController extends Controller {
 
     /**
-     * GET /books
+     * GET /networksounds
      */
     public function index()
     {

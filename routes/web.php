@@ -26,7 +26,6 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/home', 'HomeController@index');
 Route::get('/events', 'EventController@index');
 Route::get('/exchangeprojects', 'ExchangeProjectController@index');
 Route::get('/museumstories', 'MuseumStoryController@index');

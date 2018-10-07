@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 class OperatorStoryController extends Controller {
 
     /**
-     * GET /books
+     * GET /operatorstories
      */
     public function index()
     {

@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 class VideoArchiveController extends Controller {
 
     /**
-     * GET /books
+     * GET /videoarchives
      */
     public function index()
     {

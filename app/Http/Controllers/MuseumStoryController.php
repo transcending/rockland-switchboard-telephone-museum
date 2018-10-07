@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 class MuseumStoryController extends Controller {
 
     /**
-     * GET /books
+     * GET /museumstories
      */
     public function index()
     {

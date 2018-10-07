@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 class ExchangeProjectController extends Controller {
 
     /**
-     * GET /books
+     * GET /exchangeprojects
      */
     public function index()
     {
