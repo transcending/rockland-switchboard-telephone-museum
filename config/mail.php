@@ -103,6 +103,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Support Mail Settings
+    |--------------------------------------------------------------------------
+    |
+    | Who to contact in case someone has questions related to the museum or website.
+    |
+    */
+
+    'museumSupportEmail' => 'ricciotti@aol.com',
+    'webSupportEmail' => 'emerson.david.fang@gmail.com',
+
+    /*
+    |--------------------------------------------------------------------------
     | Markdown Mail Settings
     |--------------------------------------------------------------------------
     |
